@@ -250,7 +250,6 @@ remove unusable segments, and export a cleaned video.
 uploaded = st.file_uploader("Upload video (mp4/mov/m4v)", type=["mp4", "mov", "m4v"])
 
 colA, colB = st.columns([1, 1])
-
 with colA:
     st.subheader("Analysis settings")
     sample_fps = st.slider("Sample rate (fps)", 0.5, 10.0, 2.0, 0.5)
