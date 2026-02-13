@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# MacOS
+.DS_Store
+
+# Streamlit cache
+.streamlit/
+
+# Temporary files
+*.tmp
