@@ -170,7 +170,9 @@ export default function App() {
   return (
     <div className="app-shell">
       <header className="hero-card">
-        <p className="eyebrow">Video Quality Screening System</p>
+        <p className="eyebrow">
+          Video Intelligent Screening and Trimming Assistant
+        </p>
         <h1>VISTA</h1>
         <p className="hero-text">
           A computer vision interface for analysing raw footage, classifying
